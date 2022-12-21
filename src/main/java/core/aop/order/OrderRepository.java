@@ -11,7 +11,7 @@ public class OrderRepository {
         log.info("[orderRepository] 실행");
 
         //저장 로직
-        if (itemId.equals("ex")) {
+        if (itemId.equals("exam")) {
             throw new IllegalStateException("예외 발생!");
         }
         return "OK";

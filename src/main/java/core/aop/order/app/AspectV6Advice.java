@@ -41,7 +41,7 @@ public class AspectV6Advice {
 
     @AfterThrowing(value = "core.aop.order.app.Pointcuts.orderAndService()", throwing = "ex")
     public void doThrowing(JoinPoint joinPoint, Exception ex) {
-        log.info("[ex] {} message={}", ex);
+        log.info("[exam] {} message={}", ex);
     }
 
     @After(value = "core.aop.order.app.Pointcuts.orderAndService()")
